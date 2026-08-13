@@ -1,4 +1,4 @@
-# Medical-chatbot-_RAG-_based
+
 # Medical Chatbot (RAG-Based)
 
 An intelligent Medical Chatbot built using a Retrieval-Augmented Generation (RAG) architecture. This application allows users to ask medical-related queries and get accurate, context-aware responses based on a provided medical knowledge base (PDF). 
