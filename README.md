@@ -21,15 +21,15 @@ The backend orchestrates the workflow using LangChain, stores and retrieves embe
 *   `templates/` & `static/`: Holds the HTML, CSS, and JS files for the chatbot's web interface.
 *   `requirements.txt`: Lists all Python dependencies required to run the project.
 *   `.env`: Stores sensitive environment variables like API keys (not tracked by Git).
-
-## 🚀 Getting Started
-
-### 1. Clone the repository
-```bash
-git clone [https://github.com/Aishikmax/Medical-chatbot-_RAG-_based-.git](https://github.com/Aishikmax/Medical-chatbot-_RAG-_based-.git)
-cd Medical-chatbot-_RAG-_based-
 ## 📊 Pipeline Evaluation (RAGAS)
 To ensure the medical answers are accurate and mitigate LLM hallucinations, the RAG pipeline was evaluated using the **RAGAS** framework.
 * **Answer Relevancy:** 86.2% (High precision in addressing user queries)
 * **Faithfulness:** 50.0% (Highlighting areas for future strict-prompting improvements to enforce context-grounding)
 * **Context Precision:** 50.0% (Vector search accuracy metric)
+
+
+### 1. Clone the repository
+```bash
+git clone [https://github.com/Aishikmax/Medical-chatbot-_RAG-_based-.git](https://github.com/Aishikmax/Medical-chatbot-_RAG-_based-.git)
+cd Medical-chatbot-_RAG-_based-
+
